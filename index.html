@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0,maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Owl Carousel--
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" />-->
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./sass/main.css">
+
+    <title>MyPortfolio</title>
+  </head>
+  <body>
+    <!--Progress Bar Container-->
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+    <!--Header Section-->
+      <div class="header">
+        <!--Logo-->
+        <div class="logo">
+          <h1>MyPortfolio<span>.</span></h1>
+        </div>
+        <!--Overlay-->
+        <div class="overlay-content" id="mynav" >
+        <div class="container ">
+              <div class="row ">
+                  <div class="col-12">
+                      <a href="index.html"><span>01</span>  Home</a>
+                  </div>
+                  <div class="col-12">
+                      <a href="#abt"><span>02</span> About</a>
+                  </div>
+                  <div class="col-12">
+                      <a href="myresume.html"><span>03</span> Resume</a>
+                  </div>
+                  <div class="col-12">
+                      <a href="#cnt"><span>04</span> Contact</a>
+                  </div>
+                  <div class="col-12">
+                      <a href="#prt"><span>05</span> Portfolio</a>
+                  </div>
+                  <div class="col-12">
+                      <a href="#ser"><span>06</span> Services</a>
+                  </div>
+              </div>
+        </div>
+        </div>
+        <!--Menu-->
+      <div class="menu-container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+      </div>
+
+      <!--Hero Text-->
+      <!--Carousel-->
+      <div class="carousel">
+        <div class="container">
+          <div class="row">
+              <div class="owl-carousel owl-theme">
+                  <div class="item">
+                      <h3>Hello, I'm</h3>
+                      <h1>Deep Kasat <br>a Web Developer</h1>
+                      <a class="btn btn-primary" href="#" role="button">Hire Me</a>
+                  </div>
+                  <div class="item owlshow">
+                      <h3></h3>
+                      <h1></h1>
+                      <a class="btn btn-primary" href="#" role="button">Hire Me</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+    </div>      
+
+    <!--About Section Stylimg-->
+    <section class="about" id="abt">
+      <div class="container">
+          <div class="Myrow row ">
+              <div class="about-items-text col-12 col-md-6 slide-right">
+                  <h1>About</h1>
+                  <h3>Hi, I am a Student</h3>
+                  <p>I am a fourth year I.T student with 9.47CGPA in Pune University. </p>
+                  <a href="#">Check My Resume</a>
+                  <br>
+                  <i class="fa fa-4x fa-github-square" aria-hidden="true"></i>
+                  <i class="fa fa-4x fa-facebook-official" aria-hidden="true"></i>
+                  <i class="fa fa-4x fa-twitter-square" aria-hidden="true"></i>
+                  <h2>Contact me here</h2>
+                  <h4>Email: <span>deepkasat6162@gmail.com</span></h4>
+                  <h4>Phone: <span>7304229960</span></h4>
+                  
+              </div>
+              <div class="about-items col-12 col-md-6 slide-left">
+                <div class="container my-auto">
+                  <img src="Images/WhatsApp Image 2021-08-14 at 16.44.01.jpeg" alt="">
+                  <div class="glow-wrap">
+                      <i class="glow"></i>
+                  </div>
+                </div>
+
+              </div>
+
+          </div>
+
+      </div>
+  </section>
+
+<!--Services-->
+  <section class="services" id="ser">
+    <h3 class="slide-up">What I Offer</h3>
+    <h1 class="slide-up">My Services</h1>
+    <div class="fluid-container">
+        <div class="Myrow row">
+            <div class="services-items col-12 col-md-3 slide-up">
+                <i class="fa fa-4x fa-code" aria-hidden="true"></i>
+                <h3>HTML,CSS and JavaScript Expertise</h3>
+            </div>
+            <div class="services-items col-12 col-md-3 slide-up">
+                <i class="fa fa-4x fa-cogs" aria-hidden="true"></i>
+                <h3>Responsive Designs and Creative Animations</h3>
+            </div>
+            <div class="services-items col-12 col-md-3 slide-up">
+                <i class="fa fa-4x fa-trophy" aria-hidden="true"></i>
+                <h3>Bootsrtap Hands-on Experience</h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<!--Portfolio Section Styling-->
+<section class="portfolio" id="prt">
+  <h3 class="slide-up">Portfolio</h3>
+  <h1 class="slide-up">Check out my works</h1>
+  <div id="myBtnContainer">
+      <button class="mybtn" onclick="filterSelection('all')"> All</button>
+      <button class="mybtn" onclick="filterSelection('html-css')">HTML/CSS</button>
+      <button class="mybtn" onclick="filterSelection('javascript')">JavaScript</button>
+      
+  </div>
+
+
+      <!--Projects-->
+      <div class="container">
+          <div class="row ">
+              <div class="html-css column col-12 col-md-3 slide-up">
+                  <img src="Images/HTMLCSS1.png" alt="">
+                  <div class="mycontent">
+                      <h3>BeFit Gym Website</h3>
+                      <p>This is a Gym Website.Fully Responsive,Attractive</p>
+                      <a href="https://deepkasat.github.io/Befit/">View my Project</a>
+                  </div>
+                  
+              </div>
+              <div class="html-css column col-12 col-md-3 slide-up">
+                  <img src="Images/HTMLCSS2.png" alt="">
+                  <div class="mycontent">
+                      <h3>Akriti Resort and Spa Website</h3>
+                      <p>This is a Resort Website.Attractive animations</p>
+                      <a href="">View My Project</a>
+                  </div>
+              </div>
+              <div class="javascript column col-12 col-md-3 slide-up">
+                  <img src="Images/JS1.png" alt="">
+                  <div class="mycontent">
+                      <h3>Car Racing Game </h3>
+                      <p>This is a Car Racing Game.Use arrow keys t0 play.Score is recorded</p>
+                      <a href="https://deepkasat.github.io/CarJSGame/">Vie My Project</a>
+                  </div>
+              </div>
+              <div class="javascript column col-12 col-md-3 slide-up">
+                  <img src="Images/JS2.png" alt="">
+                  <div class="mycontent">
+                      <h3>Hand Paper Sisscor Game</h3>
+                      <p>This is a HAnd Paper Scisscor Game developed in Javascript.You can with the computer</p>
+                      <a href="https://deepkasat.github.io/RockPaperSicssor/">Vie My Project</a>
+                  </div>
+              </div>
+              
+
+          </div>
+
+      </div>
+  </div>
+</section>
+
+<section class="footer" id="cnt">
+  <i class="fa fa-4x fa-github-square" aria-hidden="true"></i>
+  <i class="fa fa-4x fa-facebook-official" aria-hidden="true"></i>
+  <i class="fa fa-4x fa-twitter-square" aria-hidden="true"></i>
+
+  <h1>Contact Me</h1>
+  <a href="">deepkasat6162@gmail.com</a>
+
+  <p>Copyrights &copy;2020 All Rights Reserved<br>This Template is made by Deep Kasat</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+    <!--Custom JS-->
+    <script src="main.js"></script>
+
+    <!--Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <script>
+      var slideUp = {
+      distance: '200%',
+      origin: 'bottom',
+      delay: 100,
+      opacity: null
+      };
+      var slideLeft = {
+      distance: '150%',
+      origin: 'right',
+      delay:100,
+      opacity: null
+      };
+      var slideRight = {
+      distance: '150%',
+      origin: 'left',
+      delay:100,
+      opacity: null
+      };
+      var slideDown = {
+      distance: '150%',
+      origin: 'top',
+      delay:100,
+      opacity: null
+      };
+
+      ScrollReveal().reveal('.slide-up', slideUp);
+      ScrollReveal().reveal('.slide-left',slideLeft);
+      ScrollReveal().reveal('.slide-right', slideRight);
+      ScrollReveal().reveal('.slide-down',slideDown);
+    </script>
+
+    
+  </body>
+</html>
